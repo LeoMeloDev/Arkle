@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Arkle</title>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="img/arkle-logo-grey.gif"/></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="">Home</a></li>
+          <li><a href="what-we-do.html" class="active">What we do</a></li>
+          <li><a href="services.html" class="">Services</a></li>
+          <li><a href="gallery.html" class="">Gallery</a></li>
+          <li><a href="our-clients.html" class="">Our clients</a></li>
+          <li><a href="testimonials.html" class="">Testimonials</a></li>
+          <li><a href="contact.html" class="">Contact Us</a></li>
+        </ul>
+      </div>
+
+            <!-- The overlay -->
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="index.html" class="">Home</a>
+          <a href="what-we-do.html" class="">What we do</a>
+          <a href="services.html" class="">Services</a>
+          <a href="gallery.html" class="">Gallery</a>
+          <a href="our-clients.html" class="">Our clients</a>
+          <a href="testimonials.html" class="">Testimonials</a>
+          <a href="contact.html" class="">Contact Us</a>
+        </div>
+
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="mobilenav">&#9776;</span>
+      <!-- Use any element to open/show the overlay navigation menu -->
+
+    </header>
+
+<!-- HOMEPAGE BANNER -->
+    <div class="banner">
+      <video width="100%" height="auto" autoplay playsinline muted loop>
+        <source src="img/What we do banner.mp4" type="video/mp4">
+        <source src="img/What we do banner.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+      </video>
+    </div>
+
+<!--MAIN BODY-->
+    <div class="wrapper">
+
+      <h1 class="page-title">What we do</h1><br>
+      <div class="wrapper-left">
+      <h3 class="subtitle">Maintenance and repairs</h3>
+      <p class="paragraph">Our team of professional contractors are available to respond immediately
+        when you require an emergency repair.</p>
+
+      <h3 class="subtitle">Property refurbishment</h3>
+      <p class="paragraph">Whether a single room, a house or a commercial property, the thought can seem
+      daunting, but we are here to help. We can guide you through the refurbishment of your property
+      step by step.</p>
+
+      <h3 class="subtitle">Property relocation</h3>
+      <p class="paragraph">We work closely with businesses and private clients to create a flexible,
+      tailored relocation services for London.</p>
+
+      </div>
+      <div class="wrapper-right">
+        <h3 class="subtitle">Planned preventative maintenance</h3>
+        <p class="paragraph">Maintaining a facility is much more complex and time-consuming than simply
+        checking that the light bulbs are screwed in properly. Identifying all the areas where a facility
+        could develop show-stopping problems down the line, whilst also running your business effectively,
+        can be both a distraction and an uphill struggle.<br><br>
+
+        Employing Arkle Property Services to provide a planned preventative maintanence schedule will
+        deliver a proven and cost-effective way to solve all of the issues above, whilst leaving you hands-free
+        to concentrate on your job and the reasons you go to work every day.
+
+        </p>
+
+
+
+        <div class="wrapper-link-right">
+          <a href="services.html">Services and full prices &rarr;</a>
+        </div>
+      </div>
+
+    </div>
+
+<!--Footer-->
+    <footer>
+      <div class="footer-left">
+        <ul>
+          <li>Registered address: 3rd floor, News Building, 3 London Bridge Street, London SE1 9SG</li>
+          <li>Telephone: 0203 843 3855</li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li>&copy; 2019, Arkle Property Services Ltd. All rights Reserved</li>
+        </ul>
+      </div>
+
+      <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Arkle</title>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="img/arkle-logo-grey.gif"/></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="">Home</a></li>
+          <li><a href="what-we-do.html" class="">What we do</a></li>
+          <li><a href="services.html" class="">Services</a></li>
+          <li><a href="gallery.html" class="">Gallery</a></li>
+          <li><a href="our-clients.html" class="active">Our clients</a></li>
+          <li><a href="testimonials.html" class="">Testimonials</a></li>
+          <li><a href="contact.html" class="">Contact Us</a></li>
+        </ul>
+      </div>
+
+            <!-- The overlay -->
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="index.html" class="">Home</a>
+          <a href="what-we-do.html" class="">What we do</a>
+          <a href="services.html" class="">Services</a>
+          <a href="gallery.html" class="">Gallery</a>
+          <a href="our-clients.html" class="">Our clients</a>
+          <a href="testimonials.html" class="">Testimonials</a>
+          <a href="contact.html" class="">Contact Us</a>
+        </div>
+
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="mobilenav">&#9776;</span>
+      <!-- Use any element to open/show the overlay navigation menu -->
+    </header>
+
+    <div class="banner">
+      <video width="100%" height="auto" autoplay playsinline muted loop>
+        <source src="img/Clients_banner.mp4" type="video/mp4">
+        <source src="img/Clients_banner.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+      </video>
+    </div>
+
+<!--MAIN BODY-->
+    <div class="wrapper-clients">
+      <h1 class="page-title">Our clients</h1><br>
+      <div class="clients cbre">
+        <img src="img/cbre.png"/>
+      </div>
+      <div class="clients kf">
+        <img src="img/knight-frank.png"/>
+      </div>
+      <div class="clients hamptons">
+        <img src="img/hamptons.png"/>
+      </div>
+      <div class="clients getliving">
+        <img src="img/Get-Living-for-Arkle.png"/>
+      </div>
+    </div>
+      <div class="wrapper-clients charities">
+      <h1 class="page-title">We support these charities</h1><br>
+      <div class="clients plasticoceans">
+        <a href="http://plasticoceans.uk/" target="_blank"><img src="img/PlasticOceans.jpg"/></a>
+      </div>
+      <div class="clients mdd">
+        <a href="https://www.medicaldetectiondogs.org.uk/" target="_blank"><img src="img/medicaldetectiondogs.jpg"/></a>
+      </div>
+      <div class="centrepoint">
+        <a href="https://centrepoint.org.uk/" target="_blank"><img src="img/centrepoint.png"/></a>
+      </div>
+
+        <div class="wrapper-link-right">
+          <a href="testimonials.html">Why customers choose us &rarr;</a>
+        </div>
+        </div>
+
+<!--Footer-->
+    <footer>
+      <div class="footer-left">
+        <ul>
+          <li>Registered address: 3rd floor, News Building, 3 London Bridge Street, London SE1 9SG</li>
+          <li>Telephone: 0203 843 3855</li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li>&copy; 2019, Arkle Property Services Ltd. All rights Reserved</li>
+        </ul>
+      </div>
+
+      <script src="js/script.js"></script>
+  </body>
+</html>
