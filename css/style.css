@@ -427,6 +427,14 @@ footer {
   padding-top: 10px;
 }
 
+.our-team-title {
+  font-family: "FuturaBold", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.375;
+  padding-top: 10px;
+}
+
 .wrapper-left p {
   padding-right: 30px;
 }
@@ -539,6 +547,20 @@ li.service {
 
 .special-services tr {
   height: 140px;
+}
+
+.special-services .lime {
+  font-family: "FuturaBold", sans-serif;
+  color: #a5d614;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.special-services .blue {
+  font-family: "FuturaBold", sans-serif;
+  color: #11007c;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .special-services .red {
@@ -656,6 +678,18 @@ li.service {
   width: 100px;
 }
 
+.savills img {
+  width: 100px;
+}
+
+.rentify img {
+  width: 100px;
+}
+
+.east-london img {
+  width: 100px;
+}
+
 .plasticoceans img {
   width: 130px;
 }
@@ -744,6 +778,21 @@ form input {
   height: 40px;
   background-color: white;
   margin-top: 20px;
+}
+
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.our-team-member {
+  width: 300px;
+  padding-bottom: 15px;
+}
+
+.job-title {
+  text-transform: uppercase;
 }
 
 /*****   OVERLAY MENU FOR MOBILE   *****/
