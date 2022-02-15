@@ -315,6 +315,14 @@ video {
   clear: both;
 }
 
+.page-subtitle {
+  font-family: "FuturaBold", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.8;
+  clear: both;
+}
+
 .paragraph {
   font-family: "FuturaRegular", sans-serif;
   font-weight: 100;
@@ -710,6 +718,10 @@ li.service {
   padding-bottom: 10px;
 }
 
+.greenzone-logo {
+  width: 250px;
+}
+
 /*****   GALLERY PAGE   *****/
 
 .wrapper-gallery {
@@ -1048,6 +1060,14 @@ form input {
     clear: both;
   }
 
+  .page-subtitle {
+    font-family: "FuturaBold", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.8;
+    clear: both;
+  }
+
   .subtitle {
     font-family: "FuturaBold", sans-serif;
     font-weight: 400;
@@ -1149,6 +1169,10 @@ form input {
   .special-services td {
     padding-top: 25px;
     vertical-align: top;
+  }
+
+  .greenzone-logo {
+    width: 200px;
   }
 
   /*****   GALLERY PAGE   *****/
